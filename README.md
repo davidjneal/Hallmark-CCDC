@@ -1,4 +1,3 @@
-![alt text](http://www.wordyisms.com/images/logos/logo-hallmark.jpg "Hallmark University") # Hallmark CCDC Team
-======
-
-
+# Hallmark CCDC Team 
+---
+- [CCDC Rules](http://www.nationalccdc.org/index.php/competition/competitors/rules "CCDC Rules")
