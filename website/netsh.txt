@@ -1,0 +1,22 @@
+NETSH
+-------
+Make sure firewall is enabled
+
+BLOCK PORT:
+netsh firewall add portopening TCP $PORT $NAME DISABLE ALL
+
+BLOCK EXE FROM NETWORK:
+netsh firewall add allowedprogram $PATH/TO/EXE $NAME DISABLE ALL
+
+FIREWALL LOGGING:
+netsh advfirewall set currentprofile logging filename "C:\temp\firewall.log"
+
+DISABLE RDP:
+netsh advfirewall firewall set rule group="remote administration" new enable=No
+netsh advfirewall firewall set rule group="remote desktop" new enable=No
+
+DISABLE MULTICAST RESPONSE:
+netsh multicastbroadcastresponse mode = disable profile= all
+
+NOTIFICATIONS FOR NEW PORT:
+netsh set notifications 

@@ -1,0 +1,41 @@
+Windows Checklist
+--------------------------------------
+User accounts
+  -Confirm at least one admin before main system admin
+  -Disable Guest
+  -Disable Admin
+  -Rename both and change description
+
+Firewall
+  -Find a good firewall
+      -Tinywall?
+      -Port based
+      -Implicit Denies
+
+Start Updates
+  -Windows Update
+
+local security policies:
+  -password policies
+  -account lockout
+  -auditing
+  -user rights assignments
+  -security options
+
+Security Snap-Ins
+  -Import them
+
+Service hardening
+  -configure? file sharing
+  -remote desktop services *test rdp connection
+
+download sysinternals
+  -proccess exp
+  -tcp view
+
+Avira
+
+BASELINE
+-screenshot processes
+-ps: get-service
+-tcpview: file->save as
